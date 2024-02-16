@@ -1,6 +1,6 @@
 import numpy as np
 
-weights = np.loadtxt('weights.txt')
+weights = np.loadtxt('weights.csv')
 
 #print(weights)
 

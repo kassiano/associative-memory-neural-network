@@ -32,4 +32,4 @@ pseudo_inv = np.linalg.pinv(A)
 x = np.dot(pseudo_inv, b)
 
 
-np.savetxt('weights.txt', x)
+np.savetxt('weights.csv', x)
